@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contato</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">sobre mim</a>
+                </li>
+                <li>
+                    <a href="project.html">projetos</a>
+                </li>
+                <li>
+                    <a href="contact.html">contato</a>
+                </li>
+            </ul>
+        </nav>
+    
+        <header class="center">
+            <div>
+                <img src="./img/Julio everton.jpg">
+            </div>
+            <h1>Júlio Everton</h1>
+            <h2>Desenvolvedor Web</h2>
+        </header>
+    <form class="contact-form" action="https://formsubmit.co/everton2020.julio@gmail.com" method="POST">
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" required>
+        <label for="message">Mensagem</label>
+        <input type="text" name="message" id="message" required>
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+        <button type="submit">Send</button>
+    </form>
+    </div>
+</body>
+</html>
